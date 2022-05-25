@@ -4,6 +4,15 @@ body {
     justify-content: space-between;
 }
 
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -24,6 +33,20 @@ body {
     display: flex;
     padding: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    width: 400px;
+    max-height: 200px;
+    object-fit: cover;
+    padding-left: 32px;
 }
 
 .picture-section {
@@ -35,20 +58,16 @@ body {
 
 .picture-section-title {
     padding-bottom: 25px;
+    text-align: center;
 }
 
 
 .snapshots {
     display: flex;
     gap: 40px;
-}
-
-
-
-.hero-image {
-    width: 400px;
-    max-height: 200px;
-    object-fit: cover;
+    padding: 0px 32px 0px 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .snapshot-picture {
@@ -61,10 +80,16 @@ body {
     width: 150px;
 }
 
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 16px;
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
 }
+
+.quote-attribution {
+    display: flex;
+    padding-left: 500px
+}
+
+
