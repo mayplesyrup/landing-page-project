@@ -26,17 +26,41 @@ body {
     justify-content: space-between;
 }
 
+.picture-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 100px 100px 100px;
+    align-items: center;
+}
+
+.picture-section-title {
+    padding-bottom: 25px;
+}
+
+
+.snapshots {
+    display: flex;
+    gap: 40px;
+}
+
 
 
 .hero-image {
-    max-width: 200px;
-    max-height: 400px;
+    width: 400px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .snapshot-picture {
-    max-width: 200px;
-    max-height: 400px; 
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
 }
+
+.snapshot-text {
+    width: 150px;
+}
+
 
 ul {
     list-style: none;
