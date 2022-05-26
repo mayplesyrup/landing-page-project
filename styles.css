@@ -110,7 +110,7 @@ button, .cta-box, .snapshot-picture {
 .snapshots {
     display: flex;
     gap: 40px;
-    padding: 0px 32px 0px 32px;
+    padding: 0px 32px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -127,22 +127,40 @@ button, .cta-box, .snapshot-picture {
 }
 
 .quote-section {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 150px 100px 150px;
-    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 100px;
+
+   
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px 64px;
+    min-height: 200px;
+    max-width: 750px;
+    
 }
 
 .quote-text {
+    display: flex;
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937;
+    
+    
 }
 
-.quote-attribution {
-    display: flex;
-    padding-left: 500px
+.quote-attribution{
+    color: #1f2937;
+    font-weight: 600;
+    text-align: right;
 }
 
 .cta-box {
