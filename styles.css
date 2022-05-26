@@ -15,9 +15,19 @@ ul {
     gap: 16px;
 }
 
-button, .cta-box {
-    background-color: #3882f6;
+button {
+    font-weight: 700;
+    padding: 10px;
+    width: 150px;
+    color: white;
 }
+
+button, .cta-box, .snapshot-picture {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+}
+
 
 .hero, .footer{
     background-color: #1f2937; 
@@ -33,7 +43,7 @@ button, .cta-box {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 100px 0px 100px;
+    padding: 16px 150px 0px 150px;
 }
 
 .logo {
@@ -47,7 +57,7 @@ button, .cta-box {
 
 .hero-content {
     display: flex;
-    padding: 100px;
+    padding: 100px 150px;
     justify-content: space-between;
 }
 
@@ -55,6 +65,8 @@ button, .cta-box {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 400px;
+    gap: 10px;
 }
 
 .main-title {
@@ -69,8 +81,8 @@ button, .cta-box {
 }
 
 .hero-image {
-    width: 400px;
-    max-height: 200px;
+    width: 600px;
+    height: 250px;
     object-fit: cover;
     padding-left: 32px;
 }
@@ -107,6 +119,7 @@ button, .cta-box {
     width: 150px;
     height: 150px; 
     object-fit: cover;
+    border: 3px solid #3882f6
 }
 
 .snapshot-text {
@@ -135,7 +148,7 @@ button, .cta-box {
 .cta-box {
     display: flex;
     justify-content: space-between;
-    margin: 40px 100px;
+    margin: 40px 150px;
     padding: 25px 75px;
 }
 
