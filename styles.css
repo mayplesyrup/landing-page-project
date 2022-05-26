@@ -15,17 +15,26 @@ ul {
     gap: 16px;
 }
 
+.hero, .footer{
+    background-color: #1f2937; 
+}
 
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 16px 100px 0px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-links {
@@ -36,13 +45,23 @@ ul {
     display: flex;
     padding: 100px;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title-subtext, .header-links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-image {
@@ -108,7 +127,6 @@ ul {
 }
 
 .footer {
-    background-color: grey;
     margin: 0;
     display: flex;
     justify-content: center;
