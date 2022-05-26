@@ -92,4 +92,12 @@ ul {
     padding-left: 500px
 }
 
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    padding: 25px 75px;
+    background-color: blue;
+}
+
 
