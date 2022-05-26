@@ -1,7 +1,10 @@
+
+
 body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 
@@ -47,6 +50,10 @@ ul {
     max-height: 200px;
     object-fit: cover;
     padding-left: 32px;
+}
+
+.content {
+    min-height: calc(100vh - 56px);
 }
 
 .picture-section {
@@ -99,5 +106,15 @@ ul {
     padding: 25px 75px;
     background-color: blue;
 }
+
+.footer {
+    background-color: grey;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
 
 
