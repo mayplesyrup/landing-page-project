@@ -15,6 +15,10 @@ ul {
     gap: 16px;
 }
 
+button, .cta-box {
+    background-color: #3882f6;
+}
+
 .hero, .footer{
     background-color: #1f2937; 
 }
@@ -85,6 +89,9 @@ ul {
 .picture-section-title {
     padding-bottom: 25px;
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 
@@ -111,6 +118,13 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 100px 150px 100px 150px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
 }
 
 .quote-attribution {
@@ -123,7 +137,6 @@ ul {
     justify-content: space-between;
     margin: 40px 100px;
     padding: 25px 75px;
-    background-color: blue;
 }
 
 .footer {
