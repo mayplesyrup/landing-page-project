@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
     margin: 0;
     background-color: #1f2937;
+    font-family: "Gill Sans", 'Times New Roman', Times, serif;
 }
 
 
@@ -17,18 +18,25 @@ ul {
 }
 
 button {
-    font-weight: 700;
+    font-weight: 600;
     padding: 10px;
     max-width: 150px;
     min-width: 150px;
     max-height: 40px;
     color: white;
+    font-family: "Gill Sans", 'Times New Roman', Times, serif;
+
 }
 
 button, .cta-box, .snapshot-picture {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
+}
+
+a {
+    color:#e5e7eb;
+  text-decoration: none;  
 }
 
 
@@ -47,16 +55,20 @@ button, .cta-box, .snapshot-picture {
     display: flex;
     justify-content: space-between;
     padding: 16px 150px 0px 150px;
+    align-items: flex-end;
+    
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     margin-right: 16px;
+    font-family: Papyrus;
 }
 
 .header-links {
     display: flex;
+    font-family: "Gill Sans", 'Times New Roman', Times, serif;
 }
 
 .hero-content {
@@ -70,8 +82,8 @@ button, .cta-box, .snapshot-picture {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 400px;
-    gap: 10px;
+    max-width: 500px;
+    gap: 20px;
     margin-right: 16px;
 }
 
@@ -79,6 +91,11 @@ button, .cta-box, .snapshot-picture {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    font-family: Papyrus;
+}
+
+.top-signup {
+    margin-top: 32px;
 }
 
 .title-subtext, .header-links {
@@ -91,6 +108,7 @@ button, .cta-box, .snapshot-picture {
     max-height: 250px;
     object-fit: cover;
     margin-top: 16px;
+    border-radius: 5px;
 }
 
 .content {
@@ -111,6 +129,7 @@ button, .cta-box, .snapshot-picture {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    font-family: Papyrus;
 }
 
 
@@ -181,13 +200,13 @@ button, .cta-box, .snapshot-picture {
     padding: 32px 32px;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 750px;
+    width: 750px;
 }
 
 .cta-text {
     max-width: 600px;
     color: #e5e7eb;
-    margin-right: 16px;
+    margin-right: 32px;
     margin-top: 19px; 
 }
 
