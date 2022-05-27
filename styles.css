@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    background-color: #1f2937;
 }
 
 
@@ -18,7 +19,9 @@ ul {
 button {
     font-weight: 700;
     padding: 10px;
-    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 40px;
     color: white;
 }
 
@@ -49,6 +52,7 @@ button, .cta-box, .snapshot-picture {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-right: 16px;
 }
 
 .header-links {
@@ -59,6 +63,7 @@ button, .cta-box, .snapshot-picture {
     display: flex;
     padding: 100px 150px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -67,6 +72,7 @@ button, .cta-box, .snapshot-picture {
     flex-wrap: wrap;
     max-width: 400px;
     gap: 10px;
+    margin-right: 16px;
 }
 
 .main-title {
@@ -81,14 +87,15 @@ button, .cta-box, .snapshot-picture {
 }
 
 .hero-image {
-    width: 600px;
-    height: 250px;
+    max-width: 100%;
+    max-height: 250px;
     object-fit: cover;
-    padding-left: 32px;
+    margin-top: 16px;
 }
 
 .content {
     min-height: calc(100vh - 56px);
+    background-color: white;
 }
 
 .picture-section {
@@ -110,7 +117,7 @@ button, .cta-box, .snapshot-picture {
 .snapshots {
     display: flex;
     gap: 40px;
-    padding: 0px 32px;
+    padding: 32px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -149,9 +156,9 @@ button, .cta-box, .snapshot-picture {
 }
 
 .quote-text {
-    display: flex;
     font-size: 36px;
     font-weight: lighter;
+    text-align: left;
     color: #1f2937;
     
     
@@ -163,11 +170,39 @@ button, .cta-box, .snapshot-picture {
     text-align: right;
 }
 
+.cta-section {
+    padding: 32px 64px;
+    display: flex;
+    justify-content: center;
+}
+
 .cta-box {
     display: flex;
+    padding: 32px 32px;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 40px 150px;
-    padding: 25px 75px;
+    max-width: 750px;
+}
+
+.cta-text {
+    max-width: 600px;
+    color: #e5e7eb;
+    margin-right: 16px;
+    margin-top: 19px; 
+}
+
+.cta-text-header {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-text-body {
+  font-weight: lighter;
+}
+
+.cta-button {
+    border: 2px solid #e5e7eb;
+    margin: 20px 20px 20px 0px;
 }
 
 .footer {
@@ -176,6 +211,8 @@ button, .cta-box, .snapshot-picture {
     justify-content: center;
     height: 40px;
     align-items: center;
+    padding: 16px;
+    color: #e5e7eb;
 }
 
 
